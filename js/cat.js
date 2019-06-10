@@ -23,7 +23,7 @@ counter: 0
 ];
 
 const createCatButton = function(cat) {
-const container, nameLabel, catImg, counterLabel;  
+let container, nameLabel, catImg, counterLabel;  
 container = document.createElement("div"); 
 container.className = "container text_c";  
 nameLabel = document.createElement("h2");  
