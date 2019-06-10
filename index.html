@@ -4,21 +4,12 @@
     <link rel="stylesheet" href="css/cat.css">
     <script src="js/cat.js"></script>
     <title>Cat Clicker</title>
-
 </head>
 
-<body>
-    <script type="text/javascript">
-    let CatClicks = 0;
-    function catClicker() {
-        CatClicks += 1;
-        document.getElementById("CatClicks").innerHTML = CatClicks;
-    };
-    </script>
+<body>    
     <button type="button" onclick="catClicker()" class="but">
         <img src="img/cat.jpg">Click me
     </button>
     <p class="recap">Clicks: <a id="CatClicks">0</a></p>
-
 </body>
 </html>
