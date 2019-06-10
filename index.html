@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>Cat Clicker</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+    let CatClicks = 0;
+    function catClicker() {
+        CatClicks += 1;
+        document.getElementById("CatClicks").innerHTML = CatClicks;
+    };
+    </script>
+    <button type="button" onclick="catClicker()">
+        <img src="img/cat.jpg">Click me
+    </button>
+    <p>Clicks: <a id="CatClicks">0</a></p>
+
+</body>
+</html>
