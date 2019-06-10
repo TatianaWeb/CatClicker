@@ -14,3 +14,25 @@ img {
     font-size: 2rem;
     padding: 10px;
 }
+
+.text_c {
+    text-align: center;  
+  }
+  
+  .cat-img {  
+    width: 60%;  
+    max-width: 480px;  
+    min-width: 320px;  
+  }
+  
+  #cats-list {  
+    text-align: center;  
+    padding: 0;  
+    list-style: none;  
+  }
+  
+  .cats-list-item {  
+    display: inline-block;  
+    padding: 0 10px;  
+    font-weight: bold; 
+  }
