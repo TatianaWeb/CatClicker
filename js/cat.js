@@ -4,7 +4,7 @@ function catClicker() {
     document.getElementById("CatClicks").innerHTML = CatClicks;
 };
 
-const cats = [
+var cats = [
 {  
 name: "Nifff",  
 imgSrc: "img/cat.jpg",
@@ -22,8 +22,8 @@ counter: 0
 },  
 ];
 
-const createCatButton = function(cat) {
-let container, nameLabel, catImg, counterLabel;  
+var createCatButton = function(cat) {
+var container, nameLabel, catImg, counterLabel;  
 container = document.createElement("div"); 
 container.className = "container text_c";  
 nameLabel = document.createElement("h2");  
