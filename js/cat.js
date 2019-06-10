@@ -21,3 +21,26 @@ counter: 0
     counter: 0  
 },  
 ];
+
+const createCatButton = function(cat) {
+const container, nameLabel, catImg, counterLabel;  
+container = document.createElement("div"); 
+container.className = "container text_c";  
+nameLabel = document.createElement("h2");  
+nameLabel.className = "name";  
+nameLabel.innerHTML = cat.name;  
+catImg = document.createElement("img");  
+catImg.className = "cat-img";  
+catImg.alt = "Cat Image";  
+catImg.src = cat.imgSrc;  
+counterLabel = document.createElement("h2");  
+counterLabel.className = "counter"; 
+counterLabel.innerHTML = cat.counter;  
+catImg.addEventListener("click", function() {  
+    counterLabel.innerHTML = ++cat.counter;  
+}, false);
+container.appendChild(nameLabel);
+container.appendChild(catImg);
+container.appendChild(counterLabel);
+return container;
+};
