@@ -1,9 +1,10 @@
 .but {
     border-radius: 10px; 
     background-color: blanchedalmond;
+    margin: 10px;
+    padding: 10px;
 }
 
 img {
     vertical-align: middle;
-    margin: 10px;
 }
