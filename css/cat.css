@@ -1,7 +1,9 @@
 .but {
     border-radius: 10px; 
+    background-color: blanchedalmond;
 }
 
 img {
     vertical-align: middle;
+    padding: 1em;
 }
