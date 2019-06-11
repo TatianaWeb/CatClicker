@@ -7,31 +7,31 @@ var model = {
             clickCount : 0,
             name : 'Cat0',
             imgSrc : 'img/cat.jpg',
-            imgAttribution : 'https://www.flickr.com/photos/bigtallguy/434164568'
+            imgAttribution : ''
         },
         {
             clickCount : 0,
             name : 'Cat1',
             imgSrc : 'img/cat1.jpg',
-            imgAttribution : 'https://www.flickr.com/photos/xshamx/4154543904'
+            imgAttribution : ''
         },
         {
             clickCount : 0,
             name : 'Cat2',
             imgSrc : 'img/cat2.jpg',
-            imgAttribution : 'https://www.flickr.com/photos/kpjas/22252709'
+            imgAttribution : ''
         },
         {
             clickCount : 0,
             name : 'Cat3',
-            imgSrc : 'img/cat.jpg',
-            imgAttribution : 'https://www.flickr.com/photos/malfet/1413379559'
+            imgSrc : 'img/cat3.jpg',
+            imgAttribution : ''
         },
         {
             clickCount : 0,
             name : 'Cat4',
-            imgSrc : 'img/cat1.jpg',
-            imgAttribution : 'https://www.flickr.com/photos/onesharp/9648464288'
+            imgSrc : 'img/cat4.jpg',
+            imgAttribution : ''
         }
     ]
 };
@@ -104,7 +104,7 @@ var catListView = {
 
     init: function() {
         // store the DOM element for easy access later
-        this.catListElem = document.getElementById('cat_list');
+        this.catListElem = document.getElementById('cats_list');
 
         // render this view (update the DOM elements with the right values)
         this.render();
