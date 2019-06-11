@@ -18,6 +18,7 @@ img {
 .cat_row {
     display: flex;
     flex-wrap: nowrap;
+    flex-direction: row;
 }
 
 .text_c {
