@@ -17,7 +17,7 @@ img {
 
 .cat_row {
     display: flex;
-    flex-wrap:nowrap;
+    flex-wrap: nowrap;
 }
 
 .text_c {
