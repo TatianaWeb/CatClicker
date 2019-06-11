@@ -1,0 +1,4 @@
+var num = nums[i];
+elem.addEventListener('click', function() {
+    alert(num);
+});
