@@ -17,6 +17,7 @@ img {
 
 .cat_row {
     display: inline-block;  
+    float: left; 
 }
 
 .text_c {
