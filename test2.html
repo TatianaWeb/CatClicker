@@ -17,9 +17,11 @@ var nums = [1,2,3];
 // Let's loop over the numbers in our array
 for (var i = 0; i < nums.length; i++) {
     var num = nums[i];
-    elem.addEventListener('click', function() {
-    alert(num);
-});
+    elem.addEventListener('click', (function(numCopy) {
+    return function() {
+        alert(numCopy)
+    };
+})(num));
 
     // finally, let's add this element to the document
     document.body.appendChild(elem);
