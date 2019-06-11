@@ -16,8 +16,8 @@ img {
 }
 
 .cat_row {
-    display: inline-block;  
-    float: left; 
+    display: flex;
+    flex-wrap:nowrap;
 }
 
 .text_c {
