@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/cat.css">
-    <script src="js/cat.js"></script>
+    <!---script src="js/cat.js"></script>-->
     <title>Cat Clicker</title>
 </head>
 
 <body>
-<div class="cat_row">
+<!--div class="cat_row">
     <div class="cat_item">
         <button type="button" onclick="catClicker()" class="but">
             <img src="img/cat.jpg">Click me
@@ -22,9 +22,15 @@
         </button>
         <p class="recap">Clicks: <a id="CatClicks1">0</a></p>
     </div>
-</div>        
-<!--h1 class="text_c">Click the cats!</h1>
+</div-->        
+<h1 class="text_c">Click the cats!</h1>
 <ul id="cats-list"></ul>      
-<div id="content"></div-->        
+<!--div id="content"></div> -->
+<div id="cat">
+    <h2 id="cat_name"></h2>
+    <div id="cat_count"></div>
+    <img id="cat_img" src="" alt="cute cat">
+</div>   
+<script src="js/cat.js"></script>    
 </body>
 </html>
