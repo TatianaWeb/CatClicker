@@ -7,7 +7,7 @@ function catClicker() {
 
 let CatClicks1 = 0;
 function catClicker1() {
-    CatClicks += 1;
+    CatClicks1 += 1;
     document.getElementById("CatClicks1").innerHTML = CatClicks;
 };
 
