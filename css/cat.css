@@ -15,6 +15,16 @@ img {
     padding: 10px;
 }
 
+.cat_item {
+    float: left;
+}
+
+.cat_row {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
 .text_c {
     text-align: center;  
   }

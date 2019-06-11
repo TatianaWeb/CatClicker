@@ -4,6 +4,13 @@ function catClicker() {
     document.getElementById("CatClicks").innerHTML = CatClicks;
 };
 
+
+let CatClicks1 = 0;
+function catClicker1() {
+    CatClicks1 += 1;
+    document.getElementById("CatClicks1").innerHTML = CatClicks1;
+};
+
 var cats = [
 {  
 name: "Nifff",  
