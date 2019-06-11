@@ -22,7 +22,7 @@ counter: 0
 },  
 ];
 
-var createCatButton = function(cat) {
+var createCatElem = function(cat) {
 var container, nameLabel, catImg, counterLabel;  
 container = document.createElement("div"); 
 container.className = "container text_c";  
