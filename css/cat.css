@@ -1,3 +1,21 @@
+  #cat_img {  
+    width: 100%;  
+    max-width: 480px;  
+    min-width: 320px;  
+  }
+  
+  #cats_list {  
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  
+  .cats_list_item {  
+    display: inline-block;  
+    padding: 0 10px;  
+    font-weight: bold; 
+  }
+
 .but {
     border-radius: 10px; 
     background-color: blanchedalmond;
@@ -27,22 +45,4 @@ img {
 
 .text_c {
     text-align: center;  
-  }
-  
-  #cat_img {  
-    width: 60%;  
-    max-width: 480px;  
-    min-width: 320px;  
-  }
-  
-  #cat_list {  
-    text-align: center;  
-    padding: 0;  
-    list-style: none;  
-  }
-  
-  .cats_list_item {  
-    display: inline-block;  
-    padding: 0 10px;  
-    font-weight: bold; 
   }
