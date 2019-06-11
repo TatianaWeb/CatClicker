@@ -78,9 +78,9 @@ var catView = {
     init: function() {
         // store pointers to our DOM elements for easy access later
         this.catElem = document.getElementById('cat');
-        this.catNameElem = document.getElementById('cat-name');
-        this.catImageElem = document.getElementById('cat-img');
-        this.countElem = document.getElementById('cat-count');
+        this.catNameElem = document.getElementById('cat_name');
+        this.catImageElem = document.getElementById('cat_img');
+        this.countElem = document.getElementById('cat_count');
 
         // on click, increment the current cat's counter
         this.catImageElem.addEventListener('click', function(){
@@ -104,7 +104,7 @@ var catListView = {
 
     init: function() {
         // store the DOM element for easy access later
-        this.catListElem = document.getElementById('cat-list');
+        this.catListElem = document.getElementById('cat_list');
 
         // render this view (update the DOM elements with the right values)
         this.render();
